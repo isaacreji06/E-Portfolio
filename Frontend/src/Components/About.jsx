@@ -1,7 +1,8 @@
-import image from "../assets/RebeccaReji.jpg"
+import image from "../assets/RebeccaReji.jpeg"
 
 const About = () => {
   return (
+    <section className="bg-blue-300">
     <div className="p-6 max-w-4xl mx-auto">
         <img src={image} alt="Rebecca Reji" className="rounded-full w-32 mb-4" />
         <h1 className="text-3xl font-bold">Hi, I'm Rebecca Reji</h1>
@@ -18,6 +19,7 @@ const About = () => {
             <strong>My goal is to contribute to groundbreaking biotechnological solutions that improve human health while continuously advancing my skills and expertise in research and innovation.</strong>
         </p>
     </div>
+    </section>
   );
 };
 
